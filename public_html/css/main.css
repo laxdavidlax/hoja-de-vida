@@ -8,3 +8,11 @@ and open the template in the editor.
     Author     : david
 */
 
+.parrafo p{
+    text-align: justify;    
+}
+
+.foto img {
+    width: 200px;
+    padding-left: 60px;
+}

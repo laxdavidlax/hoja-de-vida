@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <circle id="svg_6" r="170.466675" cy="232.499987" cx="327.999998" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#0000ff"/>
+  <rect transform="rotate(-45, 325.5, 233)" id="svg_1" height="284.07967" width="284.07967" y="90.960152" x="183.460139" stroke-width="5" stroke="#000000" fill="#007f00"/>
+  <text transform="matrix(5.70313, 0, 0, 5.70313, -1188.56, -966.636)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_8" y="218.057546" x="265.479465" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#ffffff">ORT</text>
+ </g>
+</svg>
