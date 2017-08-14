@@ -8,11 +8,50 @@ and open the template in the editor.
     Author     : david
 */
 
+/***********************************************
+****************** INDEX ***********************
+***********************************************/
+
 .parrafo p{
     text-align: justify;    
 }
 
 .foto img {
     width: 200px;
-    padding-left: 60px;
+    padding-bottom: 30px;
+}
+
+footer {
+    background-color: #3c3c3c;
+}
+
+/***********************************************
+**************** EDUCACIÓN *********************
+***********************************************/
+
+.tabla {
+    padding-top: 20px;
+    padding-bottom: 20PX; 
+}
+
+#formulario {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/***********************************************
+***************** FOOTER ***********************
+***********************************************/
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer a{
+    padding-right: 20px;
+}
+
+.footer a:hover{
+    color: #fff;
 }
