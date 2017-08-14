@@ -6,11 +6,154 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Educación | Hoja de Vida - David Ortiz</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="hoja de vida - David Ortiz">
+        <meta name="keywords" content="hoja de vida - David Ortiz" />
+        <meta name="author" content="David Ortiz">
+        
+        <!-- core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/main.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div>TODO write content</div>
+        <header>
+            <nav class="navbar navbar-inverse">
+                <div class="container">
+                    <div class="collapse navbar-collapse navbar-right">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">David Ortiz</a></li>
+                            <li class="active"><a href="educacion.html">Educación</a></li>
+                            <li><a href="experiencia.html">Experiencia</a></li>                     
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <svg width="400px" height="284px">
+                        <image xlink:href="img/logo_ort.svg" width="400px" height="284px"></image>
+                        <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+                        </svg>
+                    </div>
+                    <div class="col-sm-12">
+                        <h1>Hoja de Vida</h1>
+                        <h2>David A. Ortiz O.</h2>
+                        <h3>28 Septiembre 1987 - Rionegro Antioquia</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="tabla col-sm-12">
+                        <h2>Educación</h2>
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Año</th>
+                                    <th>Institución</th>
+                                    <th>Lugar</th>
+                                    <th>¿Culminó?</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2017</td>
+                                    <td>Next_U</td>
+                                    <td>Virtual</td>
+                                    <td>Actualmente - Activo</td>
+                                </tr>
+                                <tr>
+                                    <td>2014</td>
+                                    <td>Universidad de Antioquia</td>
+                                    <td>Medellín</td>
+                                    <td>Actual - Suspendidos</td>
+                                </tr>
+                                <tr>
+                                    <td>2006</td>
+                                    <td>Centro de Formación Técnica Cetasdi</td>
+                                    <td>Rionegro</td>
+                                    <td>Terminado</td>
+                                </tr>
+                                <tr>
+                                    <td>2004</td>
+                                    <td>Institución Educativa Santo Tomas De Aquino</td>
+                                    <td>Guarne</td>
+                                    <td>Ternimado</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-sm-12">
+                        <h2>Agregar Estudios</h2>
+                        <div class="container">
+                            <form id="formulario">
+                                <div class="form-group row">
+                                    <label for="exampleSelect1" class="col-sm-2 col-form-label">Año:</label>
+                                    <div class="col-sm-10">
+                                        <select class="form-control" id="exampleSelect1">
+                                            <option>2017</option>
+                                            <option>2016</option>
+                                            <option>2015</option>
+                                            <option>2014</option>
+                                            <option>2013</option>
+                                            <option>2012</option>
+                                            <option>2011</option>
+                                            <option>2010</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group row">
+                                    <label class="col-sm-2 col-form-label">Institución</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputInstitucion" placeholder="Nombre de la institución" required="">
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group row">
+                                    <label class="col-sm-2 col-form-label">Lugar</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputCiudad" placeholder="Ciudad" required="">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col-sm-2 col-form-labell">¿Culmino?</label>
+                                    <div class="col-sm-10">
+                                        <input type="radio" name="CulminoRadioOptions" id="inlinesi1" value="option1"> SI
+                                        <input type="radio" name="CulminoRadioOptions" id="inlineno2" value="option2"> NO 
+                                    </div>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="footer col-sm-12" >
+                        <a href="" ><span class="glyphicon glyphicon-envelope"></span> davidaortizo@gmail.com</a>
+                        <a><span class="glyphicon glyphicon-phone"></span> 3137195941</a>
+                        <a><span class="glyphicon glyphicon-home"></span> Calle 40 N° 44 - 27  Int 1818 / Rionegro Antioquia</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
